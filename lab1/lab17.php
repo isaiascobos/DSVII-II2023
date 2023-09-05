@@ -6,7 +6,7 @@
     <body>
         <?php
             $x = 24;
-            $p1 = 3.1416;
+            $pi = 3.1416;
             $animal = "conejo";
             $saludo = "hola caracola";
             echo $x, "<br>", $pi, "<br>", $animal, "<br>", $saludo;
