@@ -7,7 +7,7 @@
             define('TAM', 4);
             function potencia ($v1, $v2)
             {
-                $rdo=pow($v1, $v2)
+                $rdo=pow($v1, $v2);
                 return $rdo;
             }
         ?>
