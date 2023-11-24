@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laboratorio 4.3</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form name="formularioDatos" method="post" action="lab43.php">
+            <h1> Valor mayor de un arreglo </h1>
+            <br/>
+            <?php for($i=1; $i<=20; $i++) {?>
+                Ingrese el valor del elemento <?php echo $i; ?>:
+                <input type="text" name="elemento<?php echo $i; ?>" value="">
+                <br/><br/>
+            <?php }?>
+            <input value="calcular" type="submit" />
+        </form>
+    </body>
+</html>
